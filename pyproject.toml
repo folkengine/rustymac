@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "rustymac"
+version = "0.1.0"
+description = "Fun with Rust Machine Learning Python Bindings"
+authors = ["folkengine <gaoler@electronicpanopticon.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.16"
+numpy = "1.26.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
